@@ -27,7 +27,7 @@ function removeLastDriver(name){
   newDrivers = drivers.slice(0);
   newDrivers.pop()
   
-  return drivers;
+  return newDrivers;
 }
 function prependDriver(name){
   newDrivers = ["Arnold", ...drivers];
