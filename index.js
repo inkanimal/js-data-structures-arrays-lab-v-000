@@ -29,7 +29,7 @@ function removeLastDriver(name){
   
   return newDrivers;
 }
-function prependDriver(name){
+function removeFirstDriver(name){
   newDrivers = drivers.slice(0);
   newDrivers.shift()
   
